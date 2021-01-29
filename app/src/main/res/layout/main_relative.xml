@@ -8,6 +8,7 @@
         android:id="@+id/pesoEDT"
         style="@style/input_style"
         android:layout_width="match_parent"
+        android:layout_below="@+id/titleTXT"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:hint="@string/peso_hint" />
@@ -28,7 +29,9 @@
         android:id="@+id/calcularBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+  android:layout_below="@id/alturaEDT"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="217dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:padding="16dp"
@@ -37,14 +40,12 @@
 
     <TextView
         android:id="@+id/titleTXT"
+        android:layout_alignParentTop="true"
         style="@style/title_style"
+        android:layout_marginTop="96dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/calcularBTN"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="-30dp"
-        android:layout_toEndOf="@id/calcularBTN"
         android:text="@string/imc"
         android:textSize="48sp"
         tools:visibility="visible" />
