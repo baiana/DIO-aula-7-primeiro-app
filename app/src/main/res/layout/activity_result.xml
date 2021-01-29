@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/closeBTN"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/red_happy"
+        android:padding="24dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_marginTop="64dp"
+        android:text="Seu IMC é: "
+        style="@style/title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultTXT"
+        style="@style/title_style"
+        tools:text="24.6"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginVertical="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/secondaryTitleTXT"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:text="Você se encontra na faixa de: "
+        style="@style/title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultTextTXT"
+        style="@style/title_style"
+        tools:text="Peso normal"
+        android:layout_marginVertical="24dp"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

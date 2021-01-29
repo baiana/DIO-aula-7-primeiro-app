@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IMC!</string>
+    <string name="hello_word">Olá Mundo!</string>
+    <string name="hi_radio">olá radiobutton</string>
+    <string name="hi_checkbox">olá checkbox</string>
+    <string name="hint_altura">Altura (ex: 1.78 m)</string>
+    <string name="calcular">Calcular</string>
+    <string name="peso_hint">Peso (ex: 65.8 kg)</string>
+    <string name="imc">IMC</string>
+    <string name="abaixo">Abaixo do Peso</string>
+    <string name="obesidade_3">Obesidade III</string>
+    <string name="obesidade_2">Obesidade II</string>
+    <string name="obesidade_1">Obesidade I</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="peso_normal">Peso normal</string>
+    <string name="indefinido">Indefinido</string>
+    <string name="imc_resultado">Seu IMC é %.2f</string>
+</resources>
