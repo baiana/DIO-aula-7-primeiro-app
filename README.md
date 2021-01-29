@@ -21,4 +21,4 @@ Esse projeto corresponde ao código apresentado durante a aula e contém algumas
  - [Jetpack compose](https://developer.android.com/jetpack/compose/tutorial?gclsrc=aw.ds&&gclid=Cj0KCQiA3smABhCjARIsAKtrg6KElp-9NhJ6SJQhGR5vFSjSDsH0CzjVqg4h74ei4AEA8-N3s9MPanAaAtkYEALw_wcB);
  - [Custom Views](https://developer.android.com/guide/topics/ui/custom-components); 
 
-## Sinta-se a vontade para clonar esse projeto e utiliza-lo como base para os seus exercícios ao longo da aula!
+## Sinta-se a vontade para clonar esse projeto e utilizá-lo como base para os seus exercícios ao longo da aula!
